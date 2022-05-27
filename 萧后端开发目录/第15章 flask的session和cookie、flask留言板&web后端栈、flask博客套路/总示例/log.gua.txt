@@ -1,0 +1,36 @@
+19:06:20 kwargs,  {'id': -1} <class 'dict'>
+19:06:27 kwargs,  {'username': 'hello'} <class 'dict'>
+19:06:27 debug 1
+19:06:27 kwargs,  {'id': -1} <class 'dict'>
+19:06:37 kwargs,  {'username': 'hello'} <class 'dict'>
+19:06:37 kwargs,  {'id': 2} <class 'dict'>
+19:06:55 kwargs,  {'id': 2} <class 'dict'>
+19:08:00 kwargs,  {'id': 2} <class 'dict'>
+19:43:51 kwargs,  {'id': 2} <class 'dict'>
+19:43:58 kwargs,  {'id': 2} <class 'dict'>
+19:48:07 kwargs,  {'id': -1} <class 'dict'>
+19:49:04 kwargs,  {'id': -1} <class 'dict'>
+19:52:55 kwargs,  {'id': -1} <class 'dict'>
+19:53:11 kwargs,  {'username': 'akirayu101'} <class 'dict'>
+19:53:12 debug 2
+19:53:12 kwargs,  {'id': -1} <class 'dict'>
+19:53:50 kwargs,  {'username': 'akirayu101'} <class 'dict'>
+19:53:50 kwargs,  {'id': 3} <class 'dict'>
+19:55:44 kwargs,  {'id': 3} <class 'dict'>
+19:56:23 kwargs,  {'id': 3} <class 'dict'>
+20:00:45 kwargs,  {'id': 2} <class 'dict'>
+21:40:16 kwargs,  {'blog_id': 1} <class 'dict'>
+21:40:16 kwargs,  {'id': 1} <class 'dict'>
+21:44:00 kwargs,  {'id': 1} <class 'dict'>
+21:45:27 kwargs,  {'id': 1} <class 'dict'>
+21:45:48 kwargs,  {'id': 1} <class 'dict'>
+21:48:35 kwargs,  {'blog_id': 1} <class 'dict'>
+21:48:35 kwargs,  {'id': 1} <class 'dict'>
+21:48:41 kwargs,  {'blog_id': 1} <class 'dict'>
+21:48:41 kwargs,  {'id': 1} <class 'dict'>
+21:49:33 kwargs,  {'blog_id': 1} <class 'dict'>
+21:49:33 kwargs,  {'id': 1} <class 'dict'>
+21:49:40 kwargs,  {'blog_id': 1} <class 'dict'>
+21:49:40 kwargs,  {'id': 1} <class 'dict'>
+21:50:39 kwargs,  {'blog_id': 1} <class 'dict'>
+21:50:39 kwargs,  {'id': 1} <class 'dict'>

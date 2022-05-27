@@ -1,0 +1,219 @@
+21:38:02 完整请求
+21:38:02 GET /admin/users HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7; user=fagsjgdfagsf8klh
+
+
+21:38:02 请求结束
+21:38:02 cookie ['Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7', 'user=fagsjgdfagsf8klh']
+21:38:02 path and query /admin/users {}
+21:38:02 kwargs,  {'id': -1} <class 'dict'>
+21:38:02 admin users None
+21:38:02 完整响应
+21:38:02 HTTP/1.1 302 OK
+Content-Type: text/html
+Location: /login
+
+
+21:38:02 响应结束
+21:38:02 完整请求
+21:38:02 GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7; user=fagsjgdfagsf8klh
+
+
+21:38:02 请求结束
+21:38:02 cookie ['Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7', 'user=fagsjgdfagsf8klh']
+21:38:02 path and query /login {}
+21:38:02 login, cookies {'user': 'fagsjgdfagsf8klh', 'Pycharm-df207d35': '600adc10-1f5d-46ff-b99f-861b091847e7'}
+21:38:02 完整响应
+21:38:02 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+21:38:02 响应结束
+21:38:26 完整请求
+21:38:26 
+21:38:26 请求结束
+21:38:26 完整请求
+21:38:26 POST /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 26
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8
+Cookie: Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7; user=fagsjgdfagsf8klh
+
+username=xiao&password=123
+21:38:26 请求结束
+21:38:26 cookie ['Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7', 'user=fagsjgdfagsf8klh']
+21:38:26 path and query /login {}
+21:38:26 login, cookies {'user': 'fagsjgdfagsf8klh', 'Pycharm-df207d35': '600adc10-1f5d-46ff-b99f-861b091847e7'}
+21:38:26 kwargs,  {'username': 'xiao'} <class 'dict'>
+21:38:26 kwargs,  {'username': 'xiao'} <class 'dict'>
+21:38:26 headers response {'Set-Cookie': 'user=k4rrd8aaeaf93ad9'}
+21:38:26 完整响应
+21:38:26 HTTP/1.1 302 OK
+Content-Type: text/html
+Set-Cookie: user=k4rrd8aaeaf93ad9
+Location: /
+
+
+21:38:26 响应结束
+21:38:26 完整请求
+21:38:26 GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7; user=k4rrd8aaeaf93ad9
+
+
+21:38:26 请求结束
+21:38:26 cookie ['Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7', 'user=k4rrd8aaeaf93ad9']
+21:38:26 path and query / {}
+21:38:26 完整响应
+21:38:26 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple todo</title>
+</head>
+<body>
+    <form action="/add" method="post">
+        <input name="task">
+        <button>add todo</button>
+    </form>
+
+    
+        <div>
+            1 : 123  @ 20:51:23
+            <a href="/edit?id=1">edit</a>
+            <a href="/delete?id=1">删除</a>
+        </div>
+    
+        <div>
+            2 : asdfas  @ 20:51:26
+            <a href="/edit?id=2">edit</a>
+            <a href="/delete?id=2">删除</a>
+        </div>
+    
+</body>
+</html>
+21:38:26 响应结束
+21:38:33 完整请求
+21:38:33 GET /admin/users HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7; user=k4rrd8aaeaf93ad9
+
+
+21:38:33 请求结束
+21:38:33 cookie ['Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7', 'user=k4rrd8aaeaf93ad9']
+21:38:33 path and query /admin/users {}
+21:38:33 kwargs,  {'id': 2} <class 'dict'>
+21:38:33 admin users < User
+id: (2)
+username: (xiao)
+password: (123) 
+>
+
+21:38:33 完整响应
+21:38:33 HTTP/1.1 302 OK
+Content-Type: text/html
+Location: /login
+
+
+21:38:33 响应结束
+21:38:33 完整请求
+21:38:33 GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8
+Cookie: Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7; user=k4rrd8aaeaf93ad9
+
+
+21:38:33 请求结束
+21:38:33 cookie ['Pycharm-df207d35=600adc10-1f5d-46ff-b99f-861b091847e7', 'user=k4rrd8aaeaf93ad9']
+21:38:33 path and query /login {}
+21:38:33 login, cookies {'user': 'k4rrd8aaeaf93ad9', 'Pycharm-df207d35': '600adc10-1f5d-46ff-b99f-861b091847e7'}
+21:38:33 完整响应
+21:38:33 HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+21:38:33 响应结束
